@@ -20,7 +20,7 @@ export default function Section1() {
     >
       <Card
         component="li"
-        sx={{ width: "100vw", flexGrow: 1, minHeight: "70vh", borderRadius: 0 }}
+        sx={{ width: "98vw", flexGrow: 1, minHeight: "70vh", borderRadius: 0 }}
       >
         <CardCover>
           <video
@@ -39,7 +39,7 @@ export default function Section1() {
           <Typography
             level="body-lg"
             textColor="#fff"
-            sx={{ fontWeight: "lg", mt: { xs: 12, sm: 80 } }}
+            // sx={{ fontWeight: "lg", mt: { xs: 12, sm: 80 } }}
           >
             Video
           </Typography>
